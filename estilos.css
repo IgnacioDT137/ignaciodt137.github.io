@@ -7,7 +7,7 @@
 #header{
     display: flex;
     justify-content: space-between;
-    background: #1c69d4;
+    background: green;
     align-items: center;
     position: sticky;
 }
@@ -40,7 +40,7 @@
 }
 
 .menu > a:hover{
-    background-color: #113f80;
+    background-color: greenyellow;
 }
 
 .logo{
@@ -49,8 +49,29 @@
 
 #contenido{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-basis: 33.3%;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: #4d4d4d;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    text-align: center;
+    width: 30%;
+    align-items: center;
+    padding: 0 30px 10px 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.producto > img{
+    width: 120px;
+    height: 120px;
+    padding-bottom: 10px;
 }
 
 

@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    align-items: center;
+
+}
+#contenido{
+    background-image: url(./imagenes/fondo\ pagina.jpg);
+    background-size: cover;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu > a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px 0 35px 0;
+    width: 50%;
+    text-align: center;
+}
+a{
+    padding: 38px 0 38px 0;
+
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu > a:hover{
+    background-color: greenyellow;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding-left: 55px;
+    
+}
+#auto{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+#historial{
+    background-color: greenyellow;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+#input{
+    width: 50%;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+#Iniciar_sesion{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}

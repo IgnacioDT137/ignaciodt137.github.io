@@ -19,17 +19,15 @@
 }
 
 .menu{
-    width: 50%;
+    width: 40%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding-right: 50px;
 }
 
 .menu > a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.2rem;
     padding: 35px 0 35px 0;
     width: 50%;
     text-align: center;
@@ -53,7 +51,7 @@
     flex-basis: 33.3%;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #4d4d4d;
+    background-image: url(./imagenes/fondo\ pagina.jpg);
 }
 
 .producto {
@@ -66,6 +64,7 @@
     padding: 0 30px 10px 30px;
     margin-bottom: 10px;
     margin-top: 10px;
+    border-radius: 25px;
 }
 
 .producto > img{

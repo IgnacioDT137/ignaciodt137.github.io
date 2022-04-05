@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background: green;
+    align-items: center;
+    position: sticky;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu > a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px 0 35px 0;
+    width: 50%;
+    text-align: center;
+}
+
+.menu > input{
+    height: 48px;
+}
+
+.menu > a:hover{
+    background-color: greenyellow;
+}
+
+.logo{
+    padding-left: 35px;
+}
+
+#contenido{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 33.3%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(./imagenes/fondo\ pagina.jpg);
+    background-size: cover;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    text-align: center;
+    width: 30%;
+    align-items: center;
+    padding: 0 30px 10px 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+    color: green;
+}
+
+.producto > img{
+    width: 120px;
+    height: 120px;
+    padding-bottom: 10px;
+}
+
+
+
+

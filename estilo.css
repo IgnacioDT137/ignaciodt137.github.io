@@ -41,9 +41,6 @@ a{
 .menu > a:hover{
     background-color: greenyellow;
 }
-a:hover{
-    border-top: 5px #11c53e solid;
-}
 .logo{
     display: flex;
     align-items: center;

@@ -48,13 +48,6 @@ a{
     padding-left: 55px;
     
 }
-#auto{
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-
-}
 #historial{
     background-color: greenyellow;
     text-align: center;

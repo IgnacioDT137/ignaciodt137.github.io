@@ -51,13 +51,6 @@ a{
     padding-left: 55px;
     
 }
-#auto{
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-
-}
 #historial{
     background-color: greenyellow;
     text-align: center;
@@ -91,10 +84,4 @@ a{
     padding-top: 100px;
     padding-bottom: 100px;
     
-}
-#Iniciar_sesion{
-    padding-top: 100px;
-    padding-bottom: 200px;
-    display: flex;
-    justify-content: center;
 }

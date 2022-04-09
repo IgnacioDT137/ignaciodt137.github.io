@@ -14,6 +14,7 @@
 #contenido{
     background-image: url(./images/fondo_pagina.jpg);
     background-size: cover;
+    height: 100vh;
 }
 
 .menu{
@@ -48,16 +49,7 @@ a{
     padding-left: 55px;
     
 }
-#historial{
-    background-color: greenyellow;
-    text-align: center;
-    width: 50%;
-    align-items: center;
-    padding: 10px 30px 10px 30px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    border-radius: 25px;
-}
+
 
 #input{
     width: 50%;
@@ -74,4 +66,14 @@ a{
     padding-bottom: 200px;
     display: flex;
     justify-content: center;
+}
+@media only screen and (max-width: 700px){
+    #contenido > div{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px){
+    #input{
+        width: 95%;
+    }
 }

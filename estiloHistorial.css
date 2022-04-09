@@ -85,3 +85,13 @@ a{
     padding-bottom: 100px;
     
 }
+@media only screen and (min-width: 400px) {
+    #contenido > div{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 400px) {
+    #header > div{
+        width: 30%;
+    }
+}

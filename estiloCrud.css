@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    align-items: center;
+
+}
+#contenido{
+    background-image: url(./images/fondo_pagina.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu > a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px 0 35px 0;
+    width: 50%;
+    text-align: center;
+}
+a{
+    padding: 38px 0 38px 0;
+    border-top: 5px transparent solid;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu > a:hover{
+    background-color: greenyellow;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding-left: 55px;
+    
+}
+
+#CRUD{
+    background-color: greenyellow;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+.input-group{
+    padding-right: 27%;
+    padding-left: 25%;
+}
+@media only screen and (min-width: 1080px){
+    #contenido > div{
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1080px){
+    #contenido > div{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    #contenido > div{
+        width: 95%;
+    }
+}
+
+
+
+
+

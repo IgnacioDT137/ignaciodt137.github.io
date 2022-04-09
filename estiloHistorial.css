@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    align-items: center;
+
+}
+#contenido{
+    background-image: url(./images/fondo_pagina.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu > a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px 0 35px 0;
+    width: 50%;
+    text-align: center;
+}
+a{
+    padding: 38px 0 38px 0;
+    border-top: 5px transparent solid;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu > a:hover{
+    background-color: greenyellow;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding-left: 55px;
+    
+}
+#historial{
+    background-color: greenyellow;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+#historial > p {
+    color: green;
+}
+#historial > h5{
+    color: green;
+}
+#historial > h4{
+    color: green;
+}
+#historial > img {
+    height: 200px;
+    width: 200px;
+}
+
+#input{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+@media only screen and (min-width: 400px) {
+    #contenido > div{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 400px) {
+    #header > div{
+        width: 30%;
+    }
+}

@@ -14,12 +14,12 @@
 #contenido{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-image: url(./imagenes/fondo\ pagina.jpg);
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
-    height: 86vh;
 }
 
 .menu{
@@ -61,8 +61,8 @@ a{
     align-items: center;
     justify-content: space-around;
     background-color: greenyellow;
-    width: 500px;
     border-radius: 25px;
+    height: 400px;
 }
 
 #crud > a{
@@ -79,6 +79,36 @@ a{
 #imagen{
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (min-width: 1080px){
+    #crud{
+        width: 30%;
+    }
+
+    #contenido {
+        height: 86vh;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1080px){
+    #crud{
+        width: 44%;
+    }
+
+    #contenido {
+        height: 86vh;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    #crud{
+        width: 95%;
+    }
+
+    #contenido {
+        height: 150vh;
+    }
 }
 
 

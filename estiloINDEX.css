@@ -33,9 +33,6 @@
     text-align: center;
 }
 
-.menu > input{
-    height: 48px;
-}
 
 .menu > a:hover{
     background-color: greenyellow;
@@ -69,6 +66,15 @@
 @media only screen and (max-width: 700px){
     .producto{
         width: 95%;
+    }
+
+    #header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        padding-left: 0px;
     }
 }
 

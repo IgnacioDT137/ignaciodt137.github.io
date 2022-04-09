@@ -118,6 +118,15 @@
         width: 60%;
         height: 100px;
     }
+
+    #header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        padding-left: 0px;
+    }
 }
 
 

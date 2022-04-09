@@ -82,6 +82,15 @@ a{
     #contenido > div{
         width: 95%;
     }
+
+    #header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        padding-left: 0px;
+    }
 }
 
 

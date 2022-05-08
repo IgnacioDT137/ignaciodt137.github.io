@@ -19,7 +19,7 @@ $(document).ready(function(){
         }
     });
     
-    $('#enviar').submit(function(){
+    $('#Iniciar_sesion').submit(function(){
         if($('#username').val() == ""){
             alert('El usuario está vacío')
             event.preventDefault()

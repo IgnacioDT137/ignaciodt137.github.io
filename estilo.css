@@ -86,3 +86,13 @@ a{
         width: 95%;
     }
 }
+
+.error {
+    border: 2px red solid;
+    background-color: #ff7474;
+}
+
+.ok {
+    border: 2px green solid;
+    background-color: #74ffb5;
+}

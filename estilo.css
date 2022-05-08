@@ -88,11 +88,11 @@ a{
 }
 
 .error {
-    border: 2px red solid;
-    background-color: #ff7474;
+    border: 2px red solid !important;
+    background-color: #ff7474 !important;
 }
 
 .ok {
-    border: 2px green solid;
-    background-color: #74ffb5;
+    border: 2px green solid !important;
+    background-color: #74ffb5 !important;
 }

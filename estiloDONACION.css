@@ -82,3 +82,13 @@ a{
         padding-left: 0px;
     }
 }
+
+.error {
+    border: 2px red solid !important;
+    background-color: #ff7474 !important;
+}
+
+.ok {
+    border: 2px green solid !important;
+    background-color: #74ffb5 !important;
+}

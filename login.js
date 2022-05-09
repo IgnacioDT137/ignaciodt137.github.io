@@ -3,9 +3,11 @@ $(document).ready(function(){
         if($('#username').val() == ""){
             $('#username').removeClass("ok")
             $('#username').addClass("error")
+            $("#mensaje").show()
         } else {
             $("#username").removeClass("error")
             $("#username").addClass("ok")
+            $("#mensaje").hide()
         }
     });
 
@@ -13,9 +15,11 @@ $(document).ready(function(){
         if($('#passwordinput').val() == ""){
             $("#passwordinput").removeClass("ok")
             $("#passwordinput").addClass("error")
+            $("#mensaje2").show()
         } else {
             $("#passwordinput").removeClass("error")
             $("#passwordinput").addClass("ok")
+            $("#mensaje2").hide()
         }
     });
     
@@ -31,3 +35,7 @@ $(document).ready(function(){
         }
     })
 })
+
+/* 
+
+*/

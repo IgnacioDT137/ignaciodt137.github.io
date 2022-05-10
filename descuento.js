@@ -30,7 +30,7 @@ $(document).ready(function(){
         }
     });
     $('#FecIni').on("input", function(){
-        if($('#FecIni').val() == ""){
+        if($('#FecIni').val() == "" || $('#FecIni').val().length != 8){
             $("#FecIni").removeClass("ok")
             $("#FecIni").addClass("error")
         } else {
@@ -39,7 +39,7 @@ $(document).ready(function(){
         }
     });
     $('#FecFin').on("input", function(){
-        if($('#FecFin').val() == ""){
+        if($('#FecFin').val() == "" || $('#FecFin').val().length != 8){
             $("#FecFin").removeClass("ok")
             $("#FecFin").addClass("error")
         } else {

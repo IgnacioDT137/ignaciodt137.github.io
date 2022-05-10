@@ -31,13 +31,16 @@ $(document).ready(function(){
     });
     
     $('#form1').submit(function(){
-        if($('#username').val() == ""){
-            alert('El usuario está vacío')
+        if($('#ID').val() == ""){
+            alert('El ID está vacío')
             event.preventDefault()
-        } else if($('#passwordinput').val() == ""){
-            alert('La contraseña está vacía')
+        } else if($('#NOMBRE').val() == ""){
+            alert('El nombre está vacío')
             event.preventDefault()
-        } else {
+        } else if($('#PRECIO').val() == ""){
+            alert('El precio está vacío')
+            event.preventDefault()
+        }else {
             alert('Formulario enviado')
         }
     })

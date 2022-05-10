@@ -49,11 +49,26 @@ $(document).ready(function(){
     });
     
     $('#form1').submit(function(){
-        if($('#username').val() == ""){
-            alert('El usuario está vacío')
+        if($('#ID').val() == ""){
+            alert('El ID está vacío')
             event.preventDefault()
-        } else if($('#passwordinput').val() == ""){
-            alert('La contraseña está vacía')
+        } else if($('#NOMBRE').val() == ""){
+            alert('El Nombre está vacío')
+            event.preventDefault()
+        }else if($('#Descuento').val() == ""){
+            alert('El Descuento está vacío')
+            event.preventDefault()
+        }else if($('#FecIni').val() == "" ){
+            alert('La Fecha de Inicio está vacía')
+            event.preventDefault()
+        }else if($('#FecIni').val().length != 8){
+            alert('La Fecha de Inicio está incompleta')
+            event.preventDefault()
+        }else if($('#FecFin').val().length != 8){
+            alert('La Fecha de Término está Incompleta')
+            event.preventDefault()
+        }else if($('#FecFin').val() == ""){
+            alert('La Fecha de Término está vacía')
             event.preventDefault()
         } else {
             alert('Formulario enviado')

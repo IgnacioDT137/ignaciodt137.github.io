@@ -108,6 +108,12 @@ a{
     }
 }
 
+#botones {
+    display: flex;
+    flex-basis: 30%;
+    align-content: center;
+}
+
 
 
 
